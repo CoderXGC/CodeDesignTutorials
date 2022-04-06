@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-0/src/main/java/cn/bugstack/design/VideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-0/src/main/java/com/ylesb/jdesign/VideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-0/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-0/src/test/java/com/ylesb/jdesign/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/cn/bugstack/design/IVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/com/ylesb/jdesign/IVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/cn/bugstack/design/impl/GuestVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/com/ylesb/jdesign/impl/GuestVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/cn/bugstack/design/impl/OrdinaryVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/com/ylesb/jdesign/impl/OrdinaryVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/cn/bugstack/design/impl/VipVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-1/src/main/java/com/ylesb/jdesign/impl/VipVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-1/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-1/src/test/java/com/ylesb/jdesign/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1649140390" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1649140389" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +79,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.ApiTest (3)">
+  <component name="RunManager" selected="JUnit.ApiTest.test_CalculationAreaExt">
     <configuration name="ApiTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.bugstack.design.test.ApiTest" />
       <module name="tutorials-2.1-1" />
@@ -110,8 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test_CalculationAreaExt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorials-2.2-0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylesb.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_CalculationAreaExt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_CalculationAreaExt" />
         <item itemvalue="Application.ApiTest (3)" />
         <item itemvalue="Application.ApiTest (2)" />
         <item itemvalue="Application.ApiTest (1)" />
@@ -130,7 +169,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649138061848</updated>
-      <workItem from="1649138073441" duration="1581000" />
+      <workItem from="1649138073441" duration="2446000" />
+      <workItem from="1649208072910" duration="307000" />
     </task>
     <servers />
   </component>

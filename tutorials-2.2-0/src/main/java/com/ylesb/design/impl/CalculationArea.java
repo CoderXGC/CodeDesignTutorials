@@ -1,14 +1,8 @@
-package cn.bugstack.design.impl;
+package com.ylesb.design.impl;
 
-import cn.bugstack.design.ICalculationArea;
+import com.ylesb.design.ICalculationArea;
 
-/**
- * @description: 面积计算实现
- * @author: 小傅哥，微信：fustack
- * @date: 2022/3/5
- * @github: https://github.com/fuzhengwei/CodeDesignTutorials
- * @Copyright: 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- */
+
 public class CalculationArea implements ICalculationArea {
 
     private final static double π = 3.14D;
