@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tutorials-2.3-1" />
+        <module name="tutorials-2.3-0" />
         <module name="tutorials-2.1-1" />
         <module name="tutorials-2.2-0" />
         <module name="tutorials-2.1-0" />

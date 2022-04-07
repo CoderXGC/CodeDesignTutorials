@@ -1,4 +1,4 @@
-package cn.bugstack.design;
+package com.ylesb.design;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,13 +7,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @description: 模拟储蓄卡功能
- * @author: 小傅哥，微信：fustack
- * @date: 2022/3/5
- * @github: https://github.com/fuzhengwei/CodeDesignTutorials
- * @Copyright: 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- */
 public class CashCard {
 
     private Logger logger = LoggerFactory.getLogger(CashCard.class);

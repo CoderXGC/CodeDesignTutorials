@@ -1,4 +1,4 @@
-package cn.bugstack.design;
+package com.ylesb.design;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
