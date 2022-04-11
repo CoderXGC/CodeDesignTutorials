@@ -1,7 +1,5 @@
-package cn.bugstack.design;
+package com.ylesb.design;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**

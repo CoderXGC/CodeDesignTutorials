@@ -1,7 +1,9 @@
-package cn.bugstack.design.test;
+package com.ylesb.design.test;
 
-import cn.bugstack.design.BetUser;
-import cn.bugstack.design.DrawControl;
+import com.ylesb.design.BetUser;
+import com.ylesb.design.DrawControl;
+import com.ylesb.design.DrawRandom;
+import com.ylesb.design.DrawWeightRank;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -15,7 +17,7 @@ public class ApiTest {
     private Logger logger = LoggerFactory.getLogger(ApiTest.class);
 
     @Test
-    public void test_DrawControl(){
+    public void test_DrawControl() {
         List<BetUser> betUserList = new ArrayList<>();
         betUserList.add(new BetUser("花花", 65));
         betUserList.add(new BetUser("豆豆", 43));
@@ -24,10 +26,10 @@ public class ApiTest {
         betUserList.add(new BetUser("丑蛋", 10));
 
         DrawControl drawControl = new DrawControl();
-        List<BetUser> prizeRandomUserList = drawControl.doDrawRandom(betUserList, 3);
+        List<BetUser> prizeRandomUserList = drawControl.doDraw(new DrawRandom(), betUserList, 3);
         logger.info("随机抽奖，中奖用户名单：{}", JSON.toJSON(prizeRandomUserList));
 
-        List<BetUser> prizeWeightUserList = drawControl.doDrawWeight(betUserList, 3);
+        List<BetUser> prizeWeightUserList = drawControl.doDraw(new DrawWeightRank(), betUserList, 3);
         logger.info("权重抽奖，中奖用户名单：{}", JSON.toJSON(prizeWeightUserList));
     }
 
