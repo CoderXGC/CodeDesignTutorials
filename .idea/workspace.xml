@@ -4,20 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="依赖倒置原则">
+    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="工厂模式">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-0/src/main/java/cn/bugstack/design/BetUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-0/src/main/java/com/ylesb/design/BetUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-0/src/main/java/cn/bugstack/design/DrawControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-0/src/main/java/com/ylesb/design/DrawControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-0/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-0/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/cn/bugstack/design/BetUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/BetUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/cn/bugstack/design/DrawControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/cn/bugstack/design/DrawRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/cn/bugstack/design/DrawWeightRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawWeightRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/cn/bugstack/design/IDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/IDraw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawWeightRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/DrawWeightRank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/IDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/main/java/com/ylesb/design/IDraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/src/test/java/com/ylesb/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/card/IQiYiCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/card/IQiYiCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/card/IQiYiCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/card/IQiYiCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/coupon/CouponInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/coupon/CouponInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/coupon/CouponResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/coupon/CouponResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/coupon/CouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/coupon/CouponService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/goods/DeliverReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/goods/DeliverReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/goods/GoodsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/goods/GoodsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/cn/bugstack/design/goods/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/main/java/com/ylesb/design/goods/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-1/src/main/java/cn/bugstack/design/AwardReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-1/src/main/java/com/ylesb/design/AwardReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-1/src/main/java/cn/bugstack/design/AwardRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-1/src/main/java/com/ylesb/design/AwardRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-1/src/main/java/cn/bugstack/design/PrizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-1/src/main/java/com/ylesb/design/PrizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/cn/bugstack/design/StoreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/com/ylesb/design/StoreFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/cn/bugstack/design/store/ICommodity.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/com/ylesb/design/store/ICommodity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/cn/bugstack/design/store/impl/CardCommodityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/com/ylesb/design/store/impl/CardCommodityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/cn/bugstack/design/store/impl/CouponCommodityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/com/ylesb/design/store/impl/CouponCommodityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/cn/bugstack/design/store/impl/GoodsCommodityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-2/src/main/java/com/ylesb/design/store/impl/GoodsCommodityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-4.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-2/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +106,22 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_DrawControl">
+  <component name="RunManager" selected="JUnit.ApiTest.test_awardToUser">
+    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorials-4.0-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylesb.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_DrawControl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-2.6-0" />
       <extension name="coverage">
@@ -108,38 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_ISkill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorials-2.5-0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ylesb.design.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ylesb.design" />
-      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_ISkill" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_Principal (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorials-2.4-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ylesb.design.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_Principal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.test_Principal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-2.4-0" />
       <extension name="coverage">
@@ -151,6 +149,22 @@
       <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
       <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
       <option name="METHOD_NAME" value="test_Principal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_awardToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorials-4.0-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylesb.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_awardToUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_awardToUser" />
+        <item itemvalue="JUnit.ApiTest" />
         <item itemvalue="JUnit.ApiTest.test_DrawControl" />
         <item itemvalue="JUnit.ApiTest.test_bankCard" />
         <item itemvalue="JUnit.ApiTest.test_Principal" />
-        <item itemvalue="JUnit.ApiTest.test_Principal (1)" />
-        <item itemvalue="JUnit.ApiTest.test_ISkill" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +213,8 @@
       <workItem from="1649376971645" duration="1459000" />
       <workItem from="1649493152189" duration="555000" />
       <workItem from="1649635791311" duration="1004000" />
-      <workItem from="1649655380897" duration="2432000" />
+      <workItem from="1649655380897" duration="2699000" />
+      <workItem from="1649740243297" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="开闭原则">
       <created>1649208655316</created>
@@ -250,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649660989694</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="依赖倒置原则">
+      <created>1649661095809</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649661095809</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +295,7 @@
     <MESSAGE value="迪米特原则（高内聚低耦合）" />
     <MESSAGE value="接口隔离原则（高内聚低耦合）" />
     <MESSAGE value="依赖倒置原则" />
-    <option name="LAST_COMMIT_MESSAGE" value="依赖倒置原则" />
+    <MESSAGE value="工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
   </component>
 </project>

@@ -32,5 +32,4 @@ public class ApiTest {
         List<BetUser> prizeWeightUserList = drawControl.doDraw(new DrawWeightRank(), betUserList, 3);
         logger.info("权重抽奖，中奖用户名单：{}", JSON.toJSON(prizeWeightUserList));
     }
-
 }
