@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="工厂模式">
+    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="抽象工厂模式">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/cn/bugstack/design/application/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/com/ylesb/design/application/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/cn/bugstack/design/application/CacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/com/ylesb/design/application/CacheServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/cn/bugstack/design/redis/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/com/ylesb/design/redis/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/cn/bugstack/design/redis/cluster/EGM.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/com/ylesb/design/redis/cluster/EGM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/cn/bugstack/design/redis/cluster/IIR.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-0/src/main/java/com/ylesb/design/redis/cluster/IIR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-1/src/main/java/cn/bugstack/design/CacheClusterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-1/src/main/java/com/ylesb/design/CacheClusterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-1/src/main/java/cn/bugstack/design/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-1/src/main/java/com/ylesb/design/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/cn/bugstack/design/factory/JDKInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/com/ylesb/design/factory/JDKInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/cn/bugstack/design/factory/JDKProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/com/ylesb/design/factory/JDKProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/cn/bugstack/design/util/ClassLoaderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/com/ylesb/design/util/ClassLoaderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/cn/bugstack/design/workshop/ICacheAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/com/ylesb/design/workshop/ICacheAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/cn/bugstack/design/workshop/impl/EGMCacheAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/com/ylesb/design/workshop/impl/EGMCacheAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/cn/bugstack/design/workshop/impl/IIRCacheAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/src/main/java/com/ylesb/design/workshop/impl/IIRCacheAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +206,7 @@
       <workItem from="1649635791311" duration="1004000" />
       <workItem from="1649655380897" duration="2699000" />
       <workItem from="1649740243297" duration="2336000" />
-      <workItem from="1649827489618" duration="520000" />
+      <workItem from="1649827489618" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="开闭原则">
       <created>1649208655316</created>
@@ -254,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649752031377</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="抽象工厂模式">
+      <created>1649828938235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649828938235</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +302,7 @@
     <MESSAGE value="接口隔离原则（高内聚低耦合）" />
     <MESSAGE value="依赖倒置原则" />
     <MESSAGE value="工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
+    <MESSAGE value="抽象工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽象工厂模式" />
   </component>
 </project>
