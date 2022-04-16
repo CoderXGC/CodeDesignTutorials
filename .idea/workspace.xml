@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="抽象工厂模式" />
+    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="建造者模式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,22 +77,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_Builder">
-    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorials-4.0-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ylesb.design.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ApiTest.test_QuestionBankController">
     <configuration name="ApiTest.test_Builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-6.0-2" />
       <extension name="coverage">
@@ -141,6 +126,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test_QuestionBankController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorials-7.0-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylesb.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_QuestionBankController" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_awardToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-4.0-1" />
       <extension name="coverage">
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_QuestionBankController" />
         <item itemvalue="JUnit.ApiTest.test_Builder" />
         <item itemvalue="JUnit.ApiTest.test_CacheService" />
         <item itemvalue="JUnit.ApiTest.test_CacheServiceAfterImpl" />
         <item itemvalue="JUnit.ApiTest.test_awardToUser" />
-        <item itemvalue="JUnit.ApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +188,7 @@
       <workItem from="1649655380897" duration="2699000" />
       <workItem from="1649740243297" duration="2336000" />
       <workItem from="1649827489618" duration="2080000" />
+      <workItem from="1650012080393" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="开闭原则">
       <created>1649208655316</created>
@@ -272,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649829473381</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="建造者模式">
+      <created>1650012249621</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650012249621</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +306,7 @@
     <MESSAGE value="依赖倒置原则" />
     <MESSAGE value="工厂模式" />
     <MESSAGE value="抽象工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽象工厂模式" />
+    <MESSAGE value="建造者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="建造者模式" />
   </component>
 </project>

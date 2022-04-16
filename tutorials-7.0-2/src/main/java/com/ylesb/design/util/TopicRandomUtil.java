@@ -1,4 +1,4 @@
-package cn.bugstack.design.util;
+package com.ylesb.design.util;
 
 import java.util.*;
 

@@ -1,19 +1,13 @@
-package cn.bugstack.design;
+package com.ylesb.design;
 
-import cn.bugstack.design.util.Topic;
-import cn.bugstack.design.util.TopicRandomUtil;
+import com.ylesb.design.util.Topic;
+import com.ylesb.design.util.TopicRandomUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Map;
 
-/**
- * @author 小傅哥，微信：fustack
- * @description 题库
- * @date 2022/3/22
- * @github https://github.com/fuzhengwei/CodeDesignTutorials
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- */
+
 public class QuestionBank implements Cloneable{
 
     private String candidate; // 考生

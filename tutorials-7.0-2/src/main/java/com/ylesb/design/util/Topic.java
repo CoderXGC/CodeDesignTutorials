@@ -1,31 +1,18 @@
-package cn.bugstack.design;
+package com.ylesb.design.util;
 
 import java.util.Map;
 
-/**
- * 单选题
- */
-public class ChoiceQuestion {
+public class Topic {
 
-    private String name;                 // 题目
     private Map<String, String> option;  // 选项；A、B、C、D
-    private String key;                  // 答案；B
+    private String key;           // 答案；B
 
-    public ChoiceQuestion() {
+    public Topic() {
     }
 
-    public ChoiceQuestion(String name, Map<String, String> option, String key) {
-        this.name = name;
+    public Topic(Map<String, String> option, String key) {
         this.option = option;
         this.key = key;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public Map<String, String> getOption() {
