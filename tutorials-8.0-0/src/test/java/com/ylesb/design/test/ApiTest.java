@@ -1,10 +1,7 @@
-package cn.bugstack.design.test;
+package com.ylesb.design.test;
 
-import cn.bugstack.design.Singleton_00;
-import cn.bugstack.design.Singleton_07;
+import com.ylesb.design.Singleton_07;
 import org.junit.Test;
-
-import java.util.Map;
 
 public class ApiTest {
 

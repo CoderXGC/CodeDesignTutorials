@@ -1,4 +1,4 @@
-package cn.bugstack.design;
+package com.ylesb.design;
 
 public class Singleton_04 {
 
