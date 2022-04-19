@@ -4,25 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="原型模式">
+    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="适配器模式">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_00.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_00.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/cn/bugstack/design/Singleton_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-8.0-0/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-8.0-0/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/cn/bugstack/design/mq/OrderMq.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/com/ylesb/design/mq/OrderMq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/cn/bugstack/design/mq/POPOrderDelivered.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/com/ylesb/design/mq/POPOrderDelivered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/cn/bugstack/design/mq/create_account.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/com/ylesb/design/mq/create_account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/cn/bugstack/design/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/com/ylesb/design/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/cn/bugstack/design/service/POPOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-0/src/main/java/com/ylesb/design/service/POPOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-1/src/main/java/cn/bugstack/design/OrderMqService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-1/src/main/java/com/ylesb/design/OrderMqService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-1/src/main/java/cn/bugstack/design/POPOrderDeliveredService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-1/src/main/java/com/ylesb/design/POPOrderDeliveredService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-1/src/main/java/cn/bugstack/design/create_accountMqService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-1/src/main/java/com/ylesb/design/create_accountMqService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/cn/bugstack/design/MQAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/com/ylesb/design/MQAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/cn/bugstack/design/OrderAdapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/com/ylesb/design/OrderAdapterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/cn/bugstack/design/RebateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/com/ylesb/design/RebateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/cn/bugstack/design/impl/InsideOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/com/ylesb/design/impl/InsideOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/cn/bugstack/design/impl/POPOrderAdapterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/com/ylesb/design/impl/POPOrderAdapterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,26 +81,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ddd-demo" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.RegionConfigurable" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/【javazx.com-A0166】netty框架深入剖析解读百万级性能调优/Java读源码之Netty深入剖析/project/t3spyw&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_QuestionBankController">
+  <component name="RunManager" selected="JUnit.ApiTest.test_MQAdapter">
     <configuration name="ApiTest.test_Builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-6.0-2" />
       <extension name="coverage">
@@ -140,6 +146,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test_MQAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorials-9.0-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylesb.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_MQAdapter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_QuestionBankController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-7.0-1" />
       <extension name="coverage">
@@ -156,29 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_awardToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorials-4.0-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ylesb.design.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_awardToUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_MQAdapter" />
         <item itemvalue="JUnit.ApiTest.test_QuestionBankController" />
         <item itemvalue="JUnit.ApiTest.test_Builder" />
         <item itemvalue="JUnit.ApiTest.test_CacheService" />
         <item itemvalue="JUnit.ApiTest.test_CacheServiceAfterImpl" />
-        <item itemvalue="JUnit.ApiTest.test_awardToUser" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +210,10 @@
       <workItem from="1649827489618" duration="2080000" />
       <workItem from="1650012080393" duration="213000" />
       <workItem from="1650086253855" duration="663000" />
-      <workItem from="1650268384164" duration="1498000" />
+      <workItem from="1650268384164" duration="1621000" />
+      <workItem from="1650350059339" duration="3315000" />
+      <workItem from="1650357562131" duration="54000" />
+      <workItem from="1650357635579" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="开闭原则">
       <created>1649208655316</created>
@@ -304,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650086617560</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="单例模式">
+      <created>1650270411594</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650270411595</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +347,8 @@
     <MESSAGE value="抽象工厂模式" />
     <MESSAGE value="建造者模式" />
     <MESSAGE value="原型模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="原型模式" />
+    <MESSAGE value="单例模式" />
+    <MESSAGE value="适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式" />
   </component>
 </project>

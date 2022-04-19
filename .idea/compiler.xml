@@ -9,10 +9,16 @@
         <module name="tutorials-7.0-2" />
         <module name="tutorials-7.0-0" />
         <module name="tutorials-7.0-1" />
+        <module name="tutorials-8.0-0" />
+        <module name="tutorials-4.0-0" />
+        <module name="tutorials-4.0-1" />
+        <module name="tutorials-4.0-2" />
+        <module name="tutorials-9.0-0" />
+        <module name="tutorials-9.0-1" />
         <module name="tutorials-5.0-0" />
         <module name="tutorials-5.0-1" />
+        <module name="tutorials-9.0-2" />
         <module name="tutorials-5.0-2" />
-        <module name="tutorials-8.0-0" />
         <module name="tutorials-2.6-1" />
         <module name="tutorials-2.5-1" />
         <module name="tutorials-2.6-0" />
@@ -23,13 +29,10 @@
         <module name="tutorials-2.4-0" />
         <module name="tutorials-6.0-1" />
         <module name="tutorials-2.3-0" />
-        <module name="tutorials-4.0-0" />
         <module name="tutorials-6.0-2" />
         <module name="tutorials-2.1-1" />
         <module name="tutorials-2.2-0" />
-        <module name="tutorials-4.0-1" />
         <module name="tutorials-2.1-0" />
-        <module name="tutorials-4.0-2" />
       </profile>
     </annotationProcessing>
   </component>
