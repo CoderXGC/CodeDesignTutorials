@@ -4,51 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="适配器模式">
+    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="桥接模式">
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-1/src/main/java/com/ylesb/design/EngineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/aggregates/TreeRich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/EngineResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/TreeNodeLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/TreeRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/EngineBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/EngineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/IEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/impl/TreeEngineHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/BaseLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/LogicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/impl/UserAgeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/impl/UserGenderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-0/src/main/java/cn/bugstack/design/HandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-0/src/main/java/cn/bugstack/design/SsoInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-1/src/main/java/cn/bugstack/design/LoginSsoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/src/main/java/cn/bugstack/design/LoginSsoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/src/main/java/cn/bugstack/design/SsoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/java/cn/bugstack/design/HelloWorldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/java/cn/bugstack/design/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/java/cn/bugstack/design/web/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-1/src/main/java/cn/bugstack/design/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/DoJoinPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/annotation/DoDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/config/StarterAutoConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/config/StarterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/config/StarterServiceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-1/src/main/java/cn/bugstack/design/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/ActivityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/util/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorials-10.0-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-1/src/main/java/cn/bugstack/design/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-1/src/main/java/com/ylesb/design/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/cn/bugstack/design/channel/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/com/ylesb/design/channel/Pay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/cn/bugstack/design/channel/WxPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/com/ylesb/design/channel/WxPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/cn/bugstack/design/channel/ZfbPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/com/ylesb/design/channel/ZfbPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/cn/bugstack/design/mode/IPayMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/com/ylesb/design/mode/IPayMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/cn/bugstack/design/mode/PayCypher.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/com/ylesb/design/mode/PayCypher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/cn/bugstack/design/mode/PayFaceMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/com/ylesb/design/mode/PayFaceMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/cn/bugstack/design/mode/PayFingerprintMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/main/java/com/ylesb/design/mode/PayFingerprintMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.1-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.1-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.2-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.2-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.3-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.3-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.3-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.3-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.4-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.4-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.4-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.4-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.5-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.5-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.5-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.5-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-2.6-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-2.6-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-4.0-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-4.0-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-4.0-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-4.0-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-5.0-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-5.0-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-5.0-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-5.0-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-6.0-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-6.0-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-6.0-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-6.0-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-6.0-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-6.0-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-7.0-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-7.0-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-7.0-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-7.0-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-7.0-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-7.0-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-9.0-0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-9.0-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/com/ylesb/design/MQAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-9.0-2/src/main/java/com/ylesb/design/MQAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +125,7 @@
   "keyToString": {
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/【javazx.com-A0166】netty框架深入剖析解读百万级性能调优/Java读源码之Netty深入剖析/project/t3spyw",
+    "last_opened_file_path": "F:/WorkPace/CodeDesignTutorials",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,7 +140,12 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_pay">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkPace\CodeDesignTutorials" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_pay (1)">
     <configuration name="ApiTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-9.0-2" />
       <extension name="coverage">
@@ -156,21 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorials-10.0-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ylesb.design.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.test_pay (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorials-10.0-2" />
       <extension name="coverage">
@@ -181,6 +186,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ylesb.design.test" />
       <option name="MAIN_CLASS_NAME" value="com.ylesb.design.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_pay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_pay (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorials-10.0-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bugstack.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.bugstack.design.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.bugstack.design.test.ApiTest" />
       <option name="METHOD_NAME" value="test_pay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -205,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_pay (1)" />
         <item itemvalue="JUnit.ApiTest.test_pay" />
         <item itemvalue="JUnit.ApiTest (2)" />
+        <item itemvalue="JUnit.ApiTest.test_pay (2)" />
         <item itemvalue="JUnit.ApiTest (1)" />
-        <item itemvalue="JUnit.ApiTest.test_pay (1)" />
-        <item itemvalue="JUnit.ApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +262,7 @@
       <workItem from="1650357635579" duration="159000" />
       <workItem from="1650357888571" duration="30000" />
       <workItem from="1650359906257" duration="778000" />
-      <workItem from="1650444300724" duration="1035000" />
+      <workItem from="1650444300724" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="开闭原则">
       <created>1649208655316</created>
@@ -355,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650357753328</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="桥接模式">
+      <created>1650445538999</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650445538999</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,6 +412,7 @@
     <MESSAGE value="原型模式" />
     <MESSAGE value="单例模式" />
     <MESSAGE value="适配器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配器模式" />
+    <MESSAGE value="桥接模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
   </component>
 </project>
