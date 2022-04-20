@@ -1,8 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 q
 Atutorials-2.1-0/src/test/java/com/ylesb/jdesign/test/ApiTest.java,8\f\8f7aca5d09ac42e2bd7b60c8c420e371270e5692
 ‚
@@ -19,8 +17,6 @@ L
 docs/assets/å…³ç³»å›¾.drawio,a\a\aa5c76e409e4fbd6c942f6e5af4fa3dd9178f18d
 u
 Etutorials-2.1-0/src/main/java/com/ylesb/jdesign/VideoUserService.java,9\9\99934fa9cee67b1d477c0c8cbbd3cf34c9c1bdb0
-G
-tutorials-2.1-0/pom.xml,a\2\a2d037a29777d4dc129ce5ebce1ecb66074fa099
 {
 Ktutorials-2.2-0/src/main/java/com/ylesb/design/impl/CalculationAreaExt.java,d\5\d56f97ce9f23f5695bd144c906d27b9650939a56
 p
@@ -79,8 +75,6 @@ q
 Atutorials-2.5-1/src/main/java/com/ylesb/design/ISkillVertigo.java,4\4\4480eba46766216a4411935dcaf2b7a9519a7ef2
 k
 ;tutorials-2.5-1/src/test/java/com/ylesb/design/ApiTest.java,9\0\900d8e3778b50fdf2d9a52a0a4ee8e01411553a5
-G
-tutorials-2.6-0/pom.xml,e\2\e20df1f31b6b516f5406104bdef8376869aa812b
 j
 :tutorials-2.5-0/src/main/java/com/ylesb/design/ISkill.java,2\1\21b02041f7c0ba63b2d886d9024c26df5f1ee955
 k
@@ -139,8 +133,6 @@ t
 Dtutorials-4.0-2/src/main/java/com/ylesb/design/store/ICommodity.java,e\a\ea9ed8b0ced2b26f813af5792869b0c080c0f226
 p
 @tutorials-4.0-2/src/test/java/com/ylesb/design/test/ApiTest.java,6\5\654081919f298c697357d680907dcb88f22d1f90
-G
-tutorials-4.0-2/pom.xml,b\5\b55f4b36a3682ff7833a8d895a8d25b9df75fb4d
 {
 Ktutorials-5.0-1/src/main/java/com/ylesb/design/CacheClusterServiceImpl.java,7\e\7e297cc0d749ee5b02db7eacd80abbb069c9ba8c
 |
@@ -157,10 +149,6 @@ t
 Dtutorials-5.0-0/src/main/java/com/ylesb/design/redis/RedisUtils.java,5\2\523b07cd2567125f9afafc374cf7a4331521a0a3
 p
 @tutorials-5.0-1/src/test/java/com/ylesb/design/test/ApiTest.java,b\9\b959a67d7abc1fbc35d0175fd7ad7105cd91fd94
-G
-tutorials-5.0-1/pom.xml,c\7\c7c0401a4aa0efbc9c05f926371427aa15186bba
-G
-tutorials-5.0-2/pom.xml,b\3\b3c8a242d57448378521c02e8e6ea6dd47855d22
 €
 Ptutorials-5.0-2/src/main/java/com/ylesb/design/factory/JDKInvocationHandler.java,e\0\e097d176fdc35192ac79566715bf18f42259eb90
 {
@@ -211,8 +199,6 @@ p
 @tutorials-6.0-2/src/test/java/com/ylesb/design/test/ApiTest.java,f\1\f138f27778869774be01adbdb23ac38b6ee0f699
 r
 Btutorials-7.0-0/src/main/java/com/ylesb/design/AnswerQuestion.java,3\a\3a89a7e11c85003a4715c4b839077d7c5cc19f2b
-G
-tutorials-7.0-0/pom.xml,c\c\cc7a9cca469c2ebc713b5c2c69be10a328d34061
 r
 Btutorials-7.0-0/src/main/java/com/ylesb/design/ChoiceQuestion.java,f\6\f6227f7ee933b861d8819fed6755e16c0fbcb41f
 p
@@ -247,33 +233,13 @@ p
 @tutorials-8.0-0/src/main/java/com/ylesb/design/Singleton_06.java,8\9\89ad37d277aae418f47780d44b66e9fa4f0d4aa0
 n
 >tutorials-9.0-0/src/main/java/com/ylesb/design/mq/OrderMq.java,e\d\ed5491bde127c57c1c36fdb6b75513143562cc87
-ƒ
-Stutorials-9.0-2/src/main/java/com/ylesb/design/impl/POPOrderAdapterServiceImpl.java,3\7\37aa38ecc0df36ec87212e6741628162084592ba
-w
-Gtutorials-9.0-2/src/main/java/com/ylesb/design/OrderAdapterService.java,5\7\57f3bc76f2a2a20093a110dd5248c16e04f7332b
 x
 Htutorials-9.0-0/src/main/java/com/ylesb/design/mq/POPOrderDelivered.java,d\c\dc7006f4504302fe9b742d7e15a57684abb2d906
-
-Otutorials-9.0-2/src/main/java/com/ylesb/design/impl/InsideOrderServiceImpl.java,e\a\ea2b221d2d6e345a054e6515c9f6e5defc661b6c
 {
 Ktutorials-9.0-0/src/main/java/com/ylesb/design/service/POPOrderService.java,3\7\37e27d1f0f32ba592028280a0151581d3e133a9e
 x
 Htutorials-9.0-0/src/main/java/com/ylesb/design/service/OrderService.java,7\f\7f512c59edc005e64b9da6589d606a74bd54bccb
-r
-Btutorials-9.0-1/src/main/java/com/ylesb/design/OrderMqService.java,d\9\d98bd36d4f064f3f7861402a2ecf57a047f18ee6
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-|
-Ltutorials-9.0-1/src/main/java/com/ylesb/design/POPOrderDeliveredService.java,c\a\cad1b97e5069460a48e4929b56dd4a08df403044
-p
-@tutorials-9.0-2/src/test/java/com/ylesb/design/test/ApiTest.java,7\5\75fe6ef2af51d9259f122b31e7309b649d17a5df
 u
 Etutorials-9.0-0/src/main/java/com/ylesb/design/mq/create_account.java,0\0\00f1a2d02d8ff200c05830945237b8762625badc
 {
 Ktutorials-9.0-1/src/main/java/com/ylesb/design/create_accountMqService.java,b\6\b6503e376fb5b8108f02673f766329ad7a4af68d
-n
->tutorials-9.0-2/src/main/java/com/ylesb/design/RebateInfo.java,b\6\b6f0712d87aa609970882897ac79a6b95a6b63f5
-p
-@tutorials-9.0-1/src/test/java/com/ylesb/design/test/ApiTest.java,c\6\c69b5866dbe8063f327f828e50d0aee4f3b20ffb
-m
-=tutorials-9.0-2/src/main/java/com/ylesb/design/MQAdapter.java,b\c\bcbb66de7f8095543ea3e35dc84d416682858418

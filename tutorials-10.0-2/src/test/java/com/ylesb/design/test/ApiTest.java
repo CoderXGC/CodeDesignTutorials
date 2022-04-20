@@ -1,10 +1,10 @@
-package cn.bugstack.design.test;
+package com.ylesb.design.test;
 
-import cn.bugstack.design.channel.Pay;
-import cn.bugstack.design.channel.WxPay;
-import cn.bugstack.design.channel.ZfbPay;
-import cn.bugstack.design.mode.PayFaceMode;
-import cn.bugstack.design.mode.PayFingerprintMode;
+import com.ylesb.design.channel.Pay;
+import com.ylesb.design.channel.WxPay;
+import com.ylesb.design.channel.ZfbPay;
+import com.ylesb.design.mode.PayFaceMode;
+import com.ylesb.design.mode.PayFingerprintMode;
 import org.junit.Test;
 
 import java.math.BigDecimal;

@@ -45,7 +45,7 @@
         </dependency>
 
         <dependency>
-            <groupId>cn.bugstack.design</groupId>
+            <groupId>com.ylesb.design</groupId>
             <artifactId>tutorials-7.0-0</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

@@ -1,6 +1,6 @@
-package cn.bugstack.design.test;
+package com.ylesb.design.test;
 
-import cn.bugstack.design.PayController;
+import com.ylesb.design.PayController;
 import org.junit.Test;
 
 import java.math.BigDecimal;

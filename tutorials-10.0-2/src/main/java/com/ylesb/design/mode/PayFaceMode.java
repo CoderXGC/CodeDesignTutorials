@@ -1,14 +1,14 @@
-package cn.bugstack.design.mode;
+package com.ylesb.design.mode;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PayCypher implements IPayMode{
+public class PayFaceMode implements IPayMode{
 
     protected Logger logger = LoggerFactory.getLogger(PayCypher.class);
 
     public boolean security(String uId) {
-        logger.info("密码支付，风控校验环境安全");
+        logger.info("人脸支付，风控校验脸部识别");
         return true;
     }
 

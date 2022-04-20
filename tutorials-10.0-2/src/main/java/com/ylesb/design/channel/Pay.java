@@ -1,6 +1,6 @@
-package cn.bugstack.design.channel;
+package com.ylesb.design.channel;
 
-import cn.bugstack.design.mode.IPayMode;
+import com.ylesb.design.mode.IPayMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

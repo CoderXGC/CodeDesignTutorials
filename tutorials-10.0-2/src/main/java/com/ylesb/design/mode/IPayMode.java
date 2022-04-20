@@ -1,4 +1,4 @@
-package cn.bugstack.design.mode;
+package com.ylesb.design.mode;
 
 public interface IPayMode {
 

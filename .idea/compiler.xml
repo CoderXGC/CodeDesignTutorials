@@ -28,11 +28,13 @@
         <module name="tutorials-2.3-1" />
         <module name="tutorials-2.4-0" />
         <module name="tutorials-6.0-1" />
+        <module name="tutorials-10.0-2" />
         <module name="tutorials-2.3-0" />
         <module name="tutorials-6.0-2" />
         <module name="tutorials-2.1-1" />
         <module name="tutorials-2.2-0" />
         <module name="tutorials-2.1-0" />
+        <module name="tutorials-10.0-1" />
       </profile>
     </annotationProcessing>
   </component>
