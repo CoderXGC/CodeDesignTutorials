@@ -5,65 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="桥接模式">
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-1/src/main/java/com/ylesb/design/EngineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-1/src/test/java/com/ylesb/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/aggregates/TreeRich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/EngineResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/TreeNodeLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/model/vo/TreeRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/EngineBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/EngineConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/IEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/engine/impl/TreeEngineHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/BaseLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/LogicFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/impl/UserAgeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/main/java/cn/bugstack/design/domain/service/logic/impl/UserGenderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-11.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-0/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-0/src/main/java/cn/bugstack/design/HandlerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-0/src/main/java/cn/bugstack/design/SsoInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-1/src/main/java/cn/bugstack/design/LoginSsoDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/src/main/java/cn/bugstack/design/LoginSsoDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/src/main/java/cn/bugstack/design/SsoDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-12.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/java/cn/bugstack/design/HelloWorldApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/java/cn/bugstack/design/domain/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/java/cn/bugstack/design/web/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-0/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-1/src/main/java/cn/bugstack/design/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/DoJoinPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/annotation/DoDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/config/StarterAutoConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/config/StarterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/main/java/cn/bugstack/design/door/config/StarterServiceProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-13.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-1/src/main/java/cn/bugstack/design/ActivityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-1/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/ActivityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/ActivityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/main/java/cn/bugstack/design/util/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-14.0-2/src/test/java/cn/bugstack/design/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials-10.0-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials-10.0-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +75,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -262,7 +208,8 @@
       <workItem from="1650357635579" duration="159000" />
       <workItem from="1650357888571" duration="30000" />
       <workItem from="1650359906257" duration="778000" />
-      <workItem from="1650444300724" duration="2922000" />
+      <workItem from="1650444300724" duration="4365000" />
+      <workItem from="1650523002465" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="开闭原则">
       <created>1649208655316</created>
@@ -383,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650445538999</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="桥接模式">
+      <created>1650447346296</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650447346296</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
