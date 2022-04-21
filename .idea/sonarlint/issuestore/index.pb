@@ -11,8 +11,6 @@ v
 Ftutorials-2.1-1/src/main/java/com/ylesb/jdesign/IVideoUserService.java,7\1\71fcefbb3d6a5c587f39930d1ca9793f3430be8b
 q
 Atutorials-2.1-1/src/test/java/com/ylesb/jdesign/test/ApiTest.java,3\3\339267a1ad434f47964bd37d09a4944215537f5f
-L
-docs/assets/关系图.drawio,a\a\aa5c76e409e4fbd6c942f6e5af4fa3dd9178f18d
 u
 Etutorials-2.1-0/src/main/java/com/ylesb/jdesign/VideoUserService.java,9\9\99934fa9cee67b1d477c0c8cbbd3cf34c9c1bdb0
 {

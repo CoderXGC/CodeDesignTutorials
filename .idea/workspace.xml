@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="桥接模式">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ea9d1e31-26c9-40da-9608-34c363aa201b" name="Changes" comment="桥接模式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +204,7 @@
       <workItem from="1650357888571" duration="30000" />
       <workItem from="1650359906257" duration="778000" />
       <workItem from="1650444300724" duration="4365000" />
-      <workItem from="1650523002465" duration="1154000" />
+      <workItem from="1650523002465" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="开闭原则">
       <created>1649208655316</created>
@@ -337,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650447346296</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="桥接模式">
+      <created>1650524403559</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650524403559</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
