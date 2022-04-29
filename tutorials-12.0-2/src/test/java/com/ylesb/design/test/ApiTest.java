@@ -1,7 +1,7 @@
-package cn.bugstack.design.test;
+package com.ylesb.design.test;
 
-import cn.bugstack.design.LoginSsoDecorator;
-import cn.bugstack.design.SsoInterceptor;
+import com.ylesb.design.LoginSsoDecorator;
+import com.ylesb.design.SsoInterceptor;
 import org.junit.Test;
 
 public class ApiTest {
