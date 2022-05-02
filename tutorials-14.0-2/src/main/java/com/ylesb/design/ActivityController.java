@@ -1,14 +1,8 @@
-package cn.bugstack.design;
+package com.ylesb.design;
 
-import cn.bugstack.design.util.RedisUtils;
+import com.ylesb.design.util.RedisUtils;
 
-/**
- * @author 小傅哥，微信：fustack
- * @description
- * @date 2022/4/16
- * @github https://github.com/fuzhengwei/CodeDesignTutorials
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- */
+
 public class ActivityController {
 
     private RedisUtils redisUtils = new RedisUtils();
