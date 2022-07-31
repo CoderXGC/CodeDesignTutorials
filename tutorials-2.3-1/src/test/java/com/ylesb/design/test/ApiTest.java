@@ -13,7 +13,8 @@ public class  ApiTest {
     private Logger logger = LoggerFactory.getLogger(ApiTest.class);
 
     @Test
-    public void test_bankCard() {
+    public void test_bankCard()
+    {
         logger.info("里氏替换前，CashCard类：");
         CashCard bankCard = new CashCard("6214567800989876", "2022-03-05");
         // 提现

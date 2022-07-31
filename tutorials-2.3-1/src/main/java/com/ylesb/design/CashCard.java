@@ -12,7 +12,7 @@ public class CashCard extends BankCard {
     public CashCard(String cardNo, String cardDate) {
         super(cardNo, cardDate);
     }
-
+    @Override
     boolean rule(BigDecimal amount) {
         return true;
     }
