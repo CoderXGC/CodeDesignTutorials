@@ -43,7 +43,7 @@ class B extends A {
         return func1(a, b) + 9;
     }
 }
-
+//未进行里式替换
 public class LiskovBefore{
     public static void main(String[] args) {
         A a = new A();
