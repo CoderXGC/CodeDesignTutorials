@@ -44,7 +44,7 @@ class B extends A {
     }
 }
 //未进行里式替换
-public class LiskovBefore{
+public class LiskoBefore{
     public static void main(String[] args) {
         A a = new A();
         System.out.println("11-3=" + a.func1(11, 3));
