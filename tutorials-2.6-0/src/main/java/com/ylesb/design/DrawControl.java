@@ -15,7 +15,8 @@ public class DrawControl {
         Collections.shuffle(list);
         // 取出指定数量的中奖用户
         List<BetUser> prizeList = new ArrayList<>(count);
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++)
+        {
             prizeList.add(list.get(i));
         }
         return prizeList;
